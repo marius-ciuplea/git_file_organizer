@@ -1,15 +1,5 @@
 # File organizer
 
-# Input data:
-#     - Path to folder
-# Const:
-#     - DIR_NAMES
-#     - FILE EXTENSION
-#
-# OUTPUT:
-#     - Move files in the specific folder
-# snake_case -> first_name
-
 import os
 import shutil
 
@@ -35,21 +25,7 @@ def list_all_files(path: str) -> list:
     return files
 
 def extract_file_extension(file: str) -> str:
-    # indexes = [i for i, ch in enumerate(file) if ch == '.']
-    # if indexes:
-    #     file_extension = file[indexes[-1]::]
-    #     return file_extension
-    # else:
-    #     return 'no extension'
-    ###### varianta 2 ##########
-    # index = file.rfind('.')
-    # print(index)
-    # if index != -1:
-    #     return file[index::]
-    # else:
-    #     return 'no extension'
-
-    ###### varianta 3 ##########
+  
     filename, extension = os.path.splitext(file)
     return extension
 
