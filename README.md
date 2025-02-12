@@ -1,29 +1,26 @@
-# 📂 File Organizer
+📂 File Organizer
+🔹 Description
+This is a Python script that organizes files in a user-specified directory into subfolders based on their file extensions. The application creates folders for images, videos, PDFs, music, and more, then moves the files into the corresponding folders based on their extensions.
 
-## 🔹 Descriere  
-Acesta este un script Python care organizează fișierele dintr-un director specificat de utilizator în subfoldere, în funcție de tipul extensiilor lor. Aplicația creează foldere pentru imagini, video, PDF, muzică și multe altele, iar apoi mută fișierele în folderele corespunzătoare pe baza extensiilor acestora.
-
-## 🛠️ Tehnologii folosite  
-- Python 3.x  
+🛠️ Technologies Used
+- Python 3.x
 - os
 - shutil
-
-## 🚀 Funcționalități  
-- ✅ Permite utilizatorului să selecteze un director din sistemul local.  
-- ✅ Validarea path-urilor specificate de utilizator pentru a asigura că sunt foldere valide.  
-- ✅ Creează foldere pentru diferite tipuri de fișiere (imagine, video, documente, etc.).  
-- ✅ Muta fișierele în folderele corespunzătoare pe baza extensiei lor.
-- ✅ Se poate opri oricând prin apăsarea "Q".
-
-## 📦 Instalare și rulare  
-1. Clonează repository-ul:  
+🚀 Features
+✅ Allows the user to select a directory from the local system.
+✅ Validates user-specified paths to ensure they are valid folders.
+✅ Creates folders for different file types (images, videos, documents, etc.).
+✅ Moves files into the corresponding folders based on their extensions.
+✅ Can be stopped at any time by pressing "Q".
+📦 Installation and Running
+1. Clone the repository: 
    ```bash
    git clone https://github.com/user/file-organizer.git
    cd file-organizer
    ```
-2. Rulează scriptul:
+2. Run the script:
    ```bash
    python file_organizer.py
    ```
-## 👤 Autor  
+## 👤 Author
 - **marius-ciuplea** - [GitHub](https://github.com/marius-ciuplea)
